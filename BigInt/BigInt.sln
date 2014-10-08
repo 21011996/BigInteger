@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BigInt", "BigInt\BigInt.vcxproj", "{DE72DBD5-CE45-4FEF-A88A-C71C5497E836}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "circular_buffer", "..\..\Re-exam\circular_buffer\circular_buffer.vcxproj", "{26DD40F2-5153-4397-98E3-F127B83C7809}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE72DBD5-CE45-4FEF-A88A-C71C5497E836}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE72DBD5-CE45-4FEF-A88A-C71C5497E836}.Debug|Win32.Build.0 = Debug|Win32
+		{DE72DBD5-CE45-4FEF-A88A-C71C5497E836}.Release|Win32.ActiveCfg = Release|Win32
+		{DE72DBD5-CE45-4FEF-A88A-C71C5497E836}.Release|Win32.Build.0 = Release|Win32
+		{26DD40F2-5153-4397-98E3-F127B83C7809}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26DD40F2-5153-4397-98E3-F127B83C7809}.Debug|Win32.Build.0 = Debug|Win32
+		{26DD40F2-5153-4397-98E3-F127B83C7809}.Release|Win32.ActiveCfg = Release|Win32
+		{26DD40F2-5153-4397-98E3-F127B83C7809}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
