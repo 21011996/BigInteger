@@ -10,21 +10,21 @@ public:
 	BigInteger(std::string const & data);
 	BigInteger(BigInteger const & other);
 	BigInteger();
-	BigInteger(bool s, const std::vector & c);
-	BigInteger operator+ (BigInteger const & right) const;
-	BigInteger operator- (BigInteger const & right) const;
-	BigInteger operator* (BigInteger const & right) const;
+	BigInteger(bool s, const std::vector<int> & c);
 
-	static std::vector add(const std::vector& x, const std::vector&y, long long base);
-	static std::vector sub(const std::vector& x, const std::vector&y, long long base);
+
+	BigInteger& operator += (BigInteger const & other);
+	BigInteger& operator -= (BigInteger const & other);
+	BigInteger& operator *= (BigInteger const & other);
+	BigInteger& operator = (BigInteger const & other);
+
 	operator std::string() const;
-	BigInteger & operator=(BigInteger const & other);
-
-	vector<int> v;
+	
+	std::vector<int> v;
 	bool sign;
 };
 
-std::ostream & operator <<(std::ostream & out, BigInteger const & other) {
+/*std::ostream & operator <<(std::ostream & out, BigInteger const & other) {
 	return out << (std::string)i;
 }
 std::istream & operator >>(std::istream & iut, BigInteger & i){
@@ -32,4 +32,8 @@ std::string s;
 	in >> s;
 	i = BigInteger(s);
 	return in;
-}
+}*/
+
+BigInteger operator + (BigInteger const & a, BigInteger const & b);
+BigInteger operator - (BigInteger const & a, BigInteger const& b);
+BigInteger operator * (BigInteger const & a, BigInteger const& b);
