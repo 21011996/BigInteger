@@ -45,21 +45,21 @@ BigInteger & BigInteger:: operator=(BigInteger const & other) {
 	sign = other.sign;
 }
 
-BigInteger& BigInteger::operator += (BigInteger const& other); 
+BigInteger& BigInteger::operator += (BigInteger const& other)
 {
 }
-BigInteger& BigInteger::operator -= (BigInteger const & other); 
+BigInteger& BigInteger::operator -= (BigInteger const & other)
 {
 }
-BigInteger& BigInteger::operator*= (BigInteger const & other); 
+BigInteger& BigInteger::operator*= (BigInteger const & other)
 {
 }
-BigInteger operator + (BigInteger const & a, BigInteger const & b); 
+BigInteger operator + (BigInteger const & b)
 {
 }
-BigInteger operator - (BigInteger const & a, BigInteger const& b); 
+BigInteger operator - (BigInteger const& b)
 {
 }
-BigInteger operator * (BigInteger const & a, BigInteger const& b); 
+BigInteger operator * (BigInteger const& b)
 {
 }
