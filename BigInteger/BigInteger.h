@@ -27,7 +27,7 @@ public:
 	std::vector<int> v;
 	bool sign;
 };
-/*
+
 std::ostream & operator <<(std::ostream & out, BigInteger const & other) {
 	return out << (std::string)i;
 }
@@ -37,5 +37,3 @@ std::string s;
 	i = BigInteger(s);
 	return in;
 }
-
-*/
